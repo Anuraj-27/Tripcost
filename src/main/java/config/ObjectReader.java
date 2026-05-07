@@ -11,7 +11,7 @@ public class ObjectReader {
 
     public ObjectReader() throws IOException {
         po = new Properties();
-        fis = new FileInputStream("C:\\Users\\2478731\\Documents\\TripCostFinal\\ObjectRepository\\object.properties");
+        fis = new FileInputStream("C:\\Users\\2478589\\Documents\\Tripcost\\ObjectRepository\\object.properties");
         po.load(fis);
     }
 
