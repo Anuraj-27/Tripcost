@@ -38,7 +38,7 @@ public class BaseTest {
         spark.config().setReportName("TripCost Test Report");
         spark.config().setDocumentTitle("Selenium Test Results");
         extent = new ExtentReports();
-        extent.setSystemInfo("Tester", "QA Engineer");
+        extent.setSystemInfo("Tester", "QA Team");
         extent.setSystemInfo("Environment", "QA");
         extent.attachReporter(spark);
     }
