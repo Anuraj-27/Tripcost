@@ -18,7 +18,7 @@ import java.lang.reflect.Method;
 import java.time.Duration;
 
 public class BaseTest {
-//This is base testhttps://github.com/Anuraj-27/Tripcost.git
+    // Per page repository
     protected static WebDriver driver;
     protected static WebDriverWait wait;
     protected static ObjectReader reader;
